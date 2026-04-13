@@ -66,9 +66,5 @@ class AIAssistantsPage:
         self.page.locator("button:has-text('Pokračovat')").last.click()
 
         self.page.wait_for_selector("text=Náhled a publikování")
-        # self.page.wait_for_selector("text=Náhled a publikování")
-        #self.page.click("button:has-text('Publikovat')")
-        #self.page.wait_for_selector("text=Ještě zbývá dokončit instalaci")
-        #self.page.click("button:has-text('I přesto publikovat')")
-        #self.page.wait_for_timeout(2000)
+        
 
